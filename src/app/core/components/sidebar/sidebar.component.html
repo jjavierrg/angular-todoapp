@@ -1,0 +1,14 @@
+<div class="flex-container">
+  <div class="flex-container">
+    <app-list-summary
+      *ngFor="let list of lists"
+      [list]="list"
+      [selected]="list === selectedList"
+      (listClick)="onListClick($event)"
+    ></app-list-summary>
+  </div>
+  <button class="btn btn-neutral" (click)="addList()">
+    <i class="fa fa-plus"></i>
+    <span class="padding-l-1em">Agregar Lista</span>
+  </button>
+</div>

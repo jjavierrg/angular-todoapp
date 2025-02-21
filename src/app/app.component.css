@@ -1,0 +1,9 @@
+.sidebar {
+  width: 300px;
+  background-color: var(--background-color);
+  /* background-color: red; */
+}
+
+.list-detail__container {
+  background-color: var(--bacgkround-color-light);
+}

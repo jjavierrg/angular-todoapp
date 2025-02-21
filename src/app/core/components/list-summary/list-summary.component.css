@@ -1,0 +1,9 @@
+.list-item {
+  align-items: baseline;
+  cursor: pointer;
+}
+
+.list-item.selected {
+  background-color: var(--primary-color);
+  color: var(--text-secondary-color);
+}

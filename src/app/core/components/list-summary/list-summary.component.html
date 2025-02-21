@@ -1,0 +1,7 @@
+<div [class.selected]="selected" class="d-flex list-item" (click)="onClick()">
+  <i class="fa fa-bars padding-1em"></i>
+  <span class="flex-1">{{ list?.name }}</span>
+  <span *ngIf="list?.tasks?.length" class="padding-r-1em padding-l-1em">{{
+    list?.tasks?.length
+  }}</span>
+</div>
